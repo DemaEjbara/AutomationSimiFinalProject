@@ -24,14 +24,17 @@ AutomationSimiFinalPro/
 ├── pom.xml # Maven configuration and dependencies
 └── README.md # Project documentation
 
+
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/AutomationSimiFinalPro.git
 cd AutomationSimiFinalPro
 2️⃣ Install dependencies
+
 mvn clean install
 3️⃣ Configure ChromeDriver
 Download the ChromeDriver version matching your Chrome browser:
@@ -46,6 +49,7 @@ Right-click on AppTest.java → Run As → TestNG Test
 From terminal (Maven):
 
 
+mvn test
 🧪 Test Cases Implemented
 The AppTest.java class includes multiple UI automation scenarios:
 
@@ -84,5 +88,4 @@ You can enable/disable tests using the enabled attribute in the @Test annotation
 Execution order is controlled by the priority attribute.
 
 👩‍💻 Author
-Dima Mahmoud Adnan Ijbareh
-
+Dima Mahmoud Adnan Ejbarah 
